@@ -9,8 +9,9 @@
 % For use without chordmode (more stable behavior):
 %   <c e g>1 <d f a> <e g b> <f a c> <g b d> <a c e> <b d f> <c e g> 
 %
-% For use with chormode: { c1:maj d:m e:m f:maj g:maj a:m b:dim }
-triads = %{ \chordmode %} { <c e g>1 <d f a> <e g b> <f a c> <g b d> <a c e> <b d f> <c e g> }
+% For use with chordmode: { c1:maj d:m e:m f:maj g:maj a:m b:dim }
+% chordmode is unpredictable
+triads = %{ \chordmode %} { \key c \major <c e g>1 <d f a> <e g b> <f a c> <g b d> <a c e> <b d f> <c e g> }
 triadNames = \new ChordNames { \triads }
 chordTool = \new StaffGroup
 {
@@ -28,7 +29,6 @@ chordTool = \new StaffGroup
     \clef bass
     <<
       \triads
-      %\triadNames %repetative
     >>
   }
   >>

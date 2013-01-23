@@ -4,24 +4,36 @@
 
 \version "2.16.1"
 
-% Variable for G Major chord tool
-triads = \relative c'
+% Defining variables
+%
+% Key of G Major has one sharp:
+% F-Sharp
+% For use with chordmode: { g1:maj a:m b:m c:maj d:maj e:m f:dim }
+triads = { \key g \major <g b d>1 <a c e> <b d fis> <c e g> <d fis a> <e g b> <fis a c> }
+triadNames = \new ChordNames { \triads }
+chordTool = \new StaffGroup
 {
-  \key g \major
-  % C Maj chords used as a template
-  %<c e g>1 <d f a> <e g b> <f a c> <g b d> <a c e> <b d f> <c e g>
-  
-  % Key of G Major has one sharp:
-  % F-Sharp
-  <g b d>1 <a c e> <b d fis> <c e g> <d fis a> <e g b> <fis a c> <g b d>
+  <<
+  \new Staff
+  {
+    \relative c'
+    << 
+      \triads 
+      \triadNames 
+    >>
+  }
+  \new Staff \relative c,
+  {
+    \clef bass
+    <<
+      \triads
+    >>
+  }
+  >>
 }
-
 
 \score
 {
-  \new Staff
-  {
-    \triads
-  }
+  \chordTool
 }
 
