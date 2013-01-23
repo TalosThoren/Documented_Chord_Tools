@@ -5,24 +5,33 @@
 \version "2.16.1"
 
 % Variable for D Major chord tool
-triads = \relative c'
-{
-  \key d \major
-  % C Maj chords used as a template
-  %<c e g>1 <d f a> <e g b> <f a c> <g b d> <a c e> <b d f> <c e g>
-  
-  % Key of D Major has two sharps:
-  % F-Sharp, C-Sharp
-  <d fis a>1 <e g b> <fis a cis> <g b d> <a cis e> <b d fis> <cis e g> <d fis a>
-}
 
+% Key of D Major has two sharps:
+% F-Sharp, C-Sharp
+d_maj_triads = { \key d \major <d fis a>1 <e g b> <fis a cis> <g b d> <a cis e> <b d fis> <cis e g> <d fis a> }
+triadNames = \new ChordNames { \d_maj_triads }
+chordTool = \new StaffGroup
+{
+  <<
+  \new Staff
+  {
+    \relative c'
+    << 
+      \d_maj_triads 
+      \triadNames 
+    >>
+  }
+  \new Staff \relative c,
+  {
+    \clef bass
+    <<
+      \d_maj_triads
+    >>
+  }
+  >>
+}
 
 \score
 {
-  \new Staff
-  {
-    \triads
-  }
+  \chordTool
 }
-
-

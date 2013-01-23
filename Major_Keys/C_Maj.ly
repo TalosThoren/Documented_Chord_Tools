@@ -4,6 +4,8 @@
 
 \version "2.16.1"
 
+\include "chordTool.ly"
+
 % Defining variables
 %
 % For use without chordmode (more stable behavior):
