@@ -4,8 +4,6 @@
 
 \version "2.16.1"
 
-\include "chordTool.ly"
-
 % Defining variables
 %
 % For use without chordmode (more stable behavior):
@@ -13,8 +11,8 @@
 %
 % For use with chordmode: { c1:maj d:m e:m f:maj g:maj a:m b:dim }
 % chordmode is unpredictable
-triads = %{ \chordmode %} { \key c \major <c e g>1 <d f a> <e g b> <f a c> <g b d> <a c e> <b d f> <c e g> }
-triadNames = \new ChordNames { \triads }
+c_maj_triads = %{ \chordmode %} { \key c \major <c e g>1 <d f a> <e g b> <f a c> <g b d> <a c e> <b d f> <c e g> }
+triadNames = \new ChordNames { \c_maj_triads }
 chordTool = \new StaffGroup
 {
   <<
@@ -22,7 +20,7 @@ chordTool = \new StaffGroup
   {
     \relative c'
     << 
-      \triads 
+      \c_maj_triads 
       \triadNames 
     >>
   }
@@ -30,7 +28,7 @@ chordTool = \new StaffGroup
   {
     \clef bass
     <<
-      \triads
+      \c_maj_triads
     >>
   }
   >>
