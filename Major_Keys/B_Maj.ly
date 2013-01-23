@@ -6,10 +6,10 @@
 
 % Variable for B Major chord tool
 
-% Key of B Major has four sharps:
+% Key of B Major has five sharps:
 % F-Sharp, C-Sharp, G-Sharp, D-Sharp, A-sharp 
 b_maj_triads = { \key b \major <b dis fis>1 <cis e gis> <dis fis ais> <e gis b> <fis ais cis > <gis b dis> <ais cis e> <b dis fis> }
-triadNames = \new ChordNames { \b_maj_triads }
+b_maj_triadNames = \new ChordNames { \b_maj_triads }
 chordTool = \new StaffGroup
 {
   <<
@@ -18,7 +18,7 @@ chordTool = \new StaffGroup
     \relative c'
     << 
       \b_maj_triads 
-      \triadNames 
+      \b_maj_triadNames 
     >>
   }
   \new Staff \relative c,

@@ -5,14 +5,8 @@
 \version "2.16.1"
 
 % Defining variables
-%
-% For use without chordmode (more stable behavior):
-%   <c e g>1 <d f a> <e g b> <f a c> <g b d> <a c e> <b d f> <c e g> 
-%
-% For use with chordmode: { c1:maj d:m e:m f:maj g:maj a:m b:dim }
-% chordmode is unpredictable
-c_maj_triads = %{ \chordmode %} { \key c \major <c e g>1 <d f a> <e g b> <f a c> <g b d> <a c e> <b d f> <c e g> }
-triadNames = \new ChordNames { \c_maj_triads }
+c_maj_triads = { \key c \major <c e g>1 <d f a> <e g b> <f a c> <g b d> <a c e> <b d f> <c e g> }
+c_maj_triadNames = \new ChordNames { \c_maj_triads }
 chordTool = \new StaffGroup
 {
   <<
@@ -21,7 +15,7 @@ chordTool = \new StaffGroup
     \relative c'
     << 
       \c_maj_triads 
-      \triadNames 
+      \c_maj_triadNames 
     >>
   }
   \new Staff \relative c,

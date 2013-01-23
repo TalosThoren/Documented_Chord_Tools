@@ -10,7 +10,7 @@
 % F-Sharp
 % For use with chordmode: { g1:maj a:m b:m c:maj d:maj e:m f:dim g:maj }
 g_maj_triads = { \key g \major <g b d>1 <a c e> <b d fis> <c e g> <d fis a> <e g b> <fis a c> <g b d> }
-triadNames = \new ChordNames { \g_maj_triads }
+g_maj_triadNames = \new ChordNames { \g_maj_triads }
 chordTool = \new StaffGroup
 {
   <<
@@ -19,7 +19,7 @@ chordTool = \new StaffGroup
     \relative c'
     << 
       \g_maj_triads 
-      \triadNames 
+      \g_maj_triadNames 
     >>
   }
   \new Staff \relative c,

@@ -9,7 +9,7 @@
 % Key of D Major has two sharps:
 % F-Sharp, C-Sharp
 d_maj_triads = { \key d \major <d fis a>1 <e g b> <fis a cis> <g b d> <a cis e> <b d fis> <cis e g> <d fis a> }
-triadNames = \new ChordNames { \d_maj_triads }
+d_maj_triadNames = \new ChordNames { \d_maj_triads }
 chordTool = \new StaffGroup
 {
   <<
@@ -18,7 +18,7 @@ chordTool = \new StaffGroup
     \relative c'
     << 
       \d_maj_triads 
-      \triadNames 
+      \d_maj_triadNames 
     >>
   }
   \new Staff \relative c,
