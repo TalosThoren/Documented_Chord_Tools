@@ -5,7 +5,7 @@
 \version "2.16.1"
 
 % Defining variables
-% The Key of F Major has two flats:
+% The Key of B-Flat Major has two flats:
 % B-Flat, E-Flat
 b_flat_maj_triads = { \key bes \major <bes d f>1 <c ees g> <d f a> <ees g bes> <f a c> <g bes d> <a c ees> <bes d f> }
 b_flat_maj_triadNames = \new ChordNames { \b_flat_maj_triads }
