@@ -6,7 +6,7 @@
 
 % Variable for A Major chord tool
 
-% Key of A Major has two sharps:
+% Key of A Major has three sharps:
 % F-Sharp, C-Sharp, G-Sharp
 a_maj_triads = { \key a \major <a cis e>1 <b d fis> <cis e gis> <d fis a> <e gis b> <fis a cis > <gis b d> <a cis e> }
 triadNames = \new ChordNames { \a_maj_triads }
