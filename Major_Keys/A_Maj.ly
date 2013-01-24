@@ -21,7 +21,7 @@ chordTool = \new StaffGroup
       \a_maj_triadNames 
     >>
   }
-  \new Staff \relative c,
+  \new Staff \relative c
   {
     \clef bass
     <<
