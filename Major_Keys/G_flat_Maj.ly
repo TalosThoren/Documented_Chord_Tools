@@ -4,6 +4,11 @@
 
 \version "2.16.1"
 
+\header
+{
+  title = "Key of G-Flat Major"
+}
+
 % Defining variables
 % The Key of G-Flat Major has six flats:
 % B-Flat, E-Flat, A-Flat, D-Flat, G-Flat, C-Flat

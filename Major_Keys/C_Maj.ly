@@ -4,6 +4,11 @@
 
 \version "2.16.1"
 
+\header
+{
+  title = "Key of C Major"
+}
+
 % Defining variables
 c_maj_triads = { \key c \major <c e g>1 <d f a> <e g b> <f a c> <g b d> <a c e> <b d f> <c e g> }
 c_maj_triadNames = \new ChordNames { \c_maj_triads }

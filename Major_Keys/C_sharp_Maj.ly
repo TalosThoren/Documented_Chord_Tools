@@ -4,6 +4,11 @@
 
 \version "2.16.1"
 
+\header
+{
+  title = "Key of C-Sharp Major"
+}
+
 % Variable for C-Sharp Major chord tool
 
 % Key of C-Sharp Major has six sharps:

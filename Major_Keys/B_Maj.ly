@@ -4,6 +4,11 @@
 
 \version "2.16.1"
 
+\header
+{
+  title = "Key of B Major"
+}
+
 % Variable for B Major chord tool
 
 % Key of B Major has five sharps:

@@ -4,6 +4,11 @@
 
 \version "2.16.1"
 
+\header
+{
+  title = "Key of A Major"
+}
+
 % Variable for A Major chord tool
 
 % Key of A Major has three sharps:

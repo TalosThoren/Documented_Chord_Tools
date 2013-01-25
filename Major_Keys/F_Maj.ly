@@ -4,6 +4,11 @@
 
 \version "2.16.1"
 
+\header
+{
+  title = "Key of F Major"
+}
+
 % Defining variables
 % The Key of F Major has one flat:
 % B-Flat

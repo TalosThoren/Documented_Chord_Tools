@@ -4,6 +4,11 @@
 
 \version "2.16.1"
 
+\header
+{
+  title = "Key of G Major"
+}
+
 % Defining variables
 %
 % Key of G Major has one sharp:

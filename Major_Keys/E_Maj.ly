@@ -4,6 +4,11 @@
 
 \version "2.16.1"
 
+\header
+{
+  title = "Key of E Major"
+}
+
 % Variable for E Major chord tool
 
 % Key of E Major has four sharps:

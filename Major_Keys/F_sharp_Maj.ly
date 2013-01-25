@@ -4,6 +4,11 @@
 
 \version "2.16.1"
 
+\header
+{
+  title = "Key of F-Sharp Major"
+}
+
 % Variable for F-Sharp Major chord tool
 
 % Key of F-Sharp Major has six sharps:

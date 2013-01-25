@@ -4,6 +4,11 @@
 
 \version "2.16.1"
 
+\header
+{
+  title = "Key of C-Flat Major"
+}
+
 % Defining variables
 % The Key of C-Flat Major has seven flats:
 % B-Flat, E-Flat, A-Flat, D-Flat, G-Flat, C-Flat, F-Flat (All notes are flat)

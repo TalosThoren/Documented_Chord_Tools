@@ -4,6 +4,11 @@
 
 \version "2.16.1"
 
+\header
+{
+  title = "Key of E-Flat Major"
+}
+
 % Defining variables
 % The Key of E-Flat Major has three flats:
 % B-Flat, E-Flat, A-Flat

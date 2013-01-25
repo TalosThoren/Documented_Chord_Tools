@@ -4,6 +4,11 @@
 
 \version "2.16.1"
 
+\header
+{
+  title = "Key of D Major"
+}
+
 % Variable for D Major chord tool
 
 % Key of D Major has two sharps:

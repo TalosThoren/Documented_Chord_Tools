@@ -4,6 +4,11 @@
 
 \version "2.16.1"
 
+\header
+{
+  title = "Key of D-Flat Major"
+}
+
 % Defining variables
 % The Key of D-Flat Major has five flats:
 % B-Flat, E-Flat, A-Flat, D-Flat, G-Flat
