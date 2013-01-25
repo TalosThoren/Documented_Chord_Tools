@@ -14,7 +14,7 @@ chordTool = \new StaffGroup
   <<
   \new Staff
   {
-    \relative c
+    \relative c'
     << 
       \f_sharp_min_triads 
       \f_sharp_min_triadNames 
