@@ -4,6 +4,11 @@
 
 \version "2.16.1"
 
+\header
+{
+  title = "Key of B minor"
+}
+
 % Defining variables
 % The Key of B minor has two sharps:
 % F-Sharp, C-Sharp

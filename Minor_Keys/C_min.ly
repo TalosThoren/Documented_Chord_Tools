@@ -4,6 +4,11 @@
 
 \version "2.16.1"
 
+\header
+{
+  title = "Key of C minor"
+}
+
 % Defining variables
 % The Key of C minor has 3 flats:
 % B-Flat, E-Flat, A-Flat

@@ -4,6 +4,11 @@
 
 \version "2.16.1"
 
+\header
+{
+  title = "Key of A-Flat minor"
+}
+
 % Defining variables
 % The Key of A Flat minor has seven flats:
 % B-Flat, E-Flat, A-Flat, D-Flat, G-Flat, C-Flat, F-Flat (All notes are flat)

@@ -4,6 +4,11 @@
 
 \version "2.16.1"
 
+\header
+{
+  title = "Key of C_Sharp minor"
+}
+
 % Defining variables
 % The Key of C Sharp minor has four sharps:
 % F-Sharp, C-Sharp, G-Sharp, D-Sharp

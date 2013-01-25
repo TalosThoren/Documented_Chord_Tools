@@ -4,6 +4,11 @@
 
 \version "2.16.1"
 
+\header
+{
+  title = "Key of E minor"
+}
+
 % Defining variables
 % The Key of E minor has one sharp:
 % F-Sharp

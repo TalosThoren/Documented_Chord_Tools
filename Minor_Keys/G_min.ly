@@ -4,6 +4,11 @@
 
 \version "2.16.1"
 
+\header
+{
+  title = "Key of G minor"
+}
+
 % Defining variables
 % The Key of G minor has two flats:
 % B-Flat, E-Flat

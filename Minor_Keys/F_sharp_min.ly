@@ -4,6 +4,11 @@
 
 \version "2.16.1"
 
+\header
+{
+  title = "Key of F-Sharp minor"
+}
+
 % Defining variables
 % The Key of F Sharp minor has three sharps:
 % F-Sharp, C-Sharp, G-Sharp
