@@ -4,6 +4,8 @@
 
 LILY=/usr/bin/lilypond --png
 
+all: A_Maj.png A_flat_Maj.png B_Maj.png B_flat_Maj.png C_Maj.png C_flat_Maj.png C_sharp_Maj.png D_Maj.png D_flat_Maj.png E_Maj.png E_flat_Maj.png F_Maj.png F_sharp_Maj.png G_Maj.png G_flat_Maj.png
+
 A_Maj.png: A_Maj.ly
 	$(LILY) A_Maj.ly
 
