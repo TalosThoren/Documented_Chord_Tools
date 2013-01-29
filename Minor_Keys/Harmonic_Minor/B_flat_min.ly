@@ -4,6 +4,11 @@
 
 \version "2.16.1"
 
+\header
+{
+  title = "Key of B-Flat minor"
+}
+
 % Defining variables
 % The Key of B Flat minor has five flats:
 % B-Flat, E-Flat, A-Flat, D-Flat, G-Flat

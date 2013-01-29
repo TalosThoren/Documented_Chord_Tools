@@ -4,6 +4,11 @@
 
 \version "2.16.1"
 
+\header
+{
+  title = "Key of D minor"
+}
+
 % Defining variables
 % The key of D minor has one flat:
 % B Flat

@@ -4,6 +4,11 @@
 
 \version "2.16.1"
 
+\header
+{
+  title = "Key of F minor"
+}
+
 % Defining variables
 % The Key of F minor has four flats:
 % B-Flat, E-Flat, A-Flat, D-Flat

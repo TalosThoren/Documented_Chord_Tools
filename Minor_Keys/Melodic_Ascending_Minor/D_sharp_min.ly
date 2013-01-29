@@ -4,6 +4,11 @@
 
 \version "2.16.1"
 
+\header
+{
+  title = "Key of D-Sharp minor"
+}
+
 % Defining variables
 % The Key of D Sharp minor has six sharps:
 % F-Sharp, C-Sharp, G-Sharp, D-Sharp, A-Sharp, E-Sharp

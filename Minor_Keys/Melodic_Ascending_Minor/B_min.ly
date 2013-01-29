@@ -4,10 +4,15 @@
 
 \version "2.16.1"
 
+\header
+{
+  title = "Key of B minor"
+}
+
 % Defining variables
 % The Key of B minor has two sharps:
 % F-Sharp, C-Sharp
-b_min_triads = { \key b \minor <b d fis>1  <cis e g> <d fis a> <e g b > <fis a cis> <g b d> <a c e> <b d fis> }
+b_min_triads = { \key b \minor <b d fis>1  <cis e g> <d fis a> <e g b > <fis a cis> <g b d> <a cis e> <b d fis> }
 b_min_triadNames = \new ChordNames { \b_min_triads }
 chordTool = \new StaffGroup
 {
@@ -20,7 +25,7 @@ chordTool = \new StaffGroup
       \b_min_triadNames 
     >>
   }
-  \new Staff \relative c
+  \new Staff \relative c,
   {
     \clef bass
     <<

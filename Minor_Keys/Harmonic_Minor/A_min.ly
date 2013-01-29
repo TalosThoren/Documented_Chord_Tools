@@ -4,6 +4,11 @@
 
 \version "2.16.1"
 
+\header
+{
+  title = "Key of A minor"
+}
+
 % Defining variables
 a_min_triads = { \key a \minor <a c e>1  <b d f> <c e g> <d f a> <e g b> <f a c> <g b d> <a c e> }
 a_min_triadNames = \new ChordNames { \a_min_triads }

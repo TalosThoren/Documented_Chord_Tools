@@ -4,6 +4,11 @@
 
 \version "2.16.1"
 
+\header
+{
+  title = "Key of A-Sharp minor"
+}
+
 % Defining variables
 % The Key of A Sharp minor has seven sharps:
 % F-Sharp, C-Sharp, G-Sharp, D-Sharp, A-Sharp, E-Sharp, B-Sharp (Every note is sharp)

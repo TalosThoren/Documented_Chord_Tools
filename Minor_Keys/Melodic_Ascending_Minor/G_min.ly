@@ -4,10 +4,15 @@
 
 \version "2.16.1"
 
+\header
+{
+  title = "Key of G minor"
+}
+
 % Defining variables
 % The Key of G minor has two flats:
 % B-Flat, E-Flat
-g_min_triads = { \key g \minor <g bes d>1 <a c ees> <bes d f> <c e g> <d f a> <ees g bes> <f a c> <g bes d> }
+g_min_triads = { \key g \minor <g bes d>1 <a c ees> <bes d f> <c ees g> <d f a> <ees g bes> <f a c> <g bes d> }
 g_min_triadNames = \new ChordNames { \g_min_triads }
 chordTool = \new StaffGroup
 {
