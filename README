@@ -1,4 +1,4 @@
-Project Name: Chord Tools
+Project Name: Documented Chord Tools
 Author: Talos Thoren
 Email: talosthoren@gmail.com
 
@@ -12,3 +12,14 @@ document analyzing the chords and the relationships between key
 signatures.
 
 	Lilypond is required to use these files: http://lilypond.org
+
+	Documented Chord Tools is a fork of the Chord Tools project
+and is intended to present the Chord Tools. Latex will be used to 
+create the overall document, which will be designed to be serve as
+a single chapter in a larger document.
+
+	Because the Chord Tools on their own lend themselves to use
+in multiple documents, are able to presented in multiple ways throughout
+a single document, and can easily be paired with other study aids and tools,
+Documented Chord Tools became a fork. This is to allow the base Chord
+Tools repository to remain useful as a discreet, flexible codebase.
