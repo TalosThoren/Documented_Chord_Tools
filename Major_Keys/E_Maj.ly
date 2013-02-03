@@ -26,6 +26,7 @@ alt_treb_chordTool = \new Staff \relative c'
   >>
 }
 
+% Main variable
 chordTool = \new StaffGroup
 {
   <<

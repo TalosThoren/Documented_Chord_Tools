@@ -14,24 +14,39 @@
 % B-Flat, E-Flat, A-Flat, D-Flat, G-Flat, C-Flat
 g_flat_maj_triads = { \key ges \major <ges bes des>1 <aes ces ees> <bes des f> <ces ees ges> <des f aes> <ees ges bes> <f aes ces> <ges bes des> }
 g_flat_maj_triadNames = \new ChordNames { \g_flat_maj_triads }
+
+% Some Chord Tools can use alternate starting
+% octaves to facilitate ease of study
+alt_treb_chordTool = \new Staff \relative c''
+{
+  <<
+    \g_flat_maj_triads
+    \g_flat_maj_triadNames
+  >>
+}
+
+% Main variable
 chordTool = \new StaffGroup
 {
   <<
-  \new Staff
-  {
-    \relative c'
-    << 
-      \g_flat_maj_triads 
-      \g_flat_maj_triadNames 
-    >>
-  }
-  \new Staff \relative c
-  {
-    \clef bass
-    <<
-      \g_flat_maj_triads
-    >>
-  }
+    \new Staff
+    {
+      \relative c'
+      << 
+	\g_flat_maj_triads 
+	%\g_flat_maj_triadNames 
+      >>
+    }
+
+    \alt_treb_chordTool
+
+    \new Staff \relative c
+    {
+      \clef bass
+      <<
+	\g_flat_maj_triads
+      >>
+    }
   >>
 }
 
