@@ -1,0 +1,50 @@
+% Author: Talos Thoren
+% Date: February 3, 2013
+% Description: Template is just to begin testing document creation
+
+\documentclass{article}
+
+\begin{document}
+  %Some basic place holder info for testing
+  The Key of C Major has no sharps or flats
+  \newline
+  \lilypondfile{Major_Keys/C_Maj.ly}
+
+  
+  %Some basic place holder info for testing
+  These keys have sharps
+  \newline
+  \lilypondfile{Major_Keys/G_Maj.ly}
+  \newline
+  \lilypondfile{Major_Keys/D_Maj.ly}
+  \newline
+  \lilypondfile{Major_Keys/A_Maj.ly}
+  \newline
+  \lilypondfile{Major_Keys/E_Maj.ly}
+  \newline
+  \lilypondfile{Major_Keys/B_Maj.ly}
+  \newline
+  \lilypondfile{Major_Keys/F_sharp_Maj.ly}
+  \newline
+  \lilypondfile{Major_Keys/C_sharp_Maj.ly}
+  \newpage
+
+  %Some basic place holder info for testing
+  These keys have flats 
+  \newline
+  \lilypondfile{Major_Keys/F_Maj.ly}
+  \newline
+  \lilypondfile{Major_Keys/B_flat_Maj.ly}
+  \newline
+  \lilypondfile{Major_Keys/E_flat_Maj.ly}
+  \newline
+  \lilypondfile{Major_Keys/A_flat_Maj.ly}
+  \newline
+  \lilypondfile{Major_Keys/D_flat_Maj.ly}
+  \newline
+  \lilypondfile{Major_Keys/G_flat_Maj.ly}
+  \newline
+  \lilypondfile{Major_Keys/C_flat_Maj.ly}
+  \newline
+
+\end{document}
