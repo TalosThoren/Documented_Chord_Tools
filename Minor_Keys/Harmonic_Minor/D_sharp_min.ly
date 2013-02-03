@@ -12,7 +12,7 @@
 % Defining variables
 % The Key of D Sharp minor has six sharps:
 % F-Sharp, C-Sharp, G-Sharp, D-Sharp, A-Sharp, E-Sharp
-d_sharp_min_triads = { \key dis \minor <dis fis ais>1  <eis gis b> <fis ais cis> <gis b dis> <ais cis eis> <b dis fis> <cis eis gis> <dis fis ais> }
+d_sharp_min_triads = { \key dis \minor <dis fis ais>1  <eis gis b> <fis ais cisis> <gis b dis> <ais cisis eis> <b dis fis> <cisis eis gis> <dis fis ais> }
 d_sharp_min_triadNames = \new ChordNames { \d_sharp_min_triads }
 chordTool = \new StaffGroup
 {

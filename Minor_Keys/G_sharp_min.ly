@@ -17,7 +17,7 @@ g_sharp_min_triadNames = \new ChordNames { \g_sharp_min_triads }
 
 % Some Chord Tools can use alternate starting
 % octaves to facilitate ease of study
-alt_treb_chordTool = \new Staff \relative c'
+alt_treb_chordTool = \new Staff \relative c''
 {
   <<
     \g_sharp_min_triads

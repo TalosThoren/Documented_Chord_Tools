@@ -12,26 +12,40 @@
 % Defining variables
 % The Key of F Sharp minor has three sharps:
 % F-Sharp, C-Sharp, G-Sharp
-f_sharp_min_triads = { \key fis \minor <fis a cis>1  <gis b d> <a cis e> <b d fis> <cis e gis> <d fis a> <e gis b> <fis a cis> }
+f_sharp_min_triads = { \key fis \minor <fis a cis>1  <gis b d> <a cis eis> <b d fis> <cis eis gis> <d fis a> <eis gis b> <fis a cis> }
 f_sharp_min_triadNames = \new ChordNames { \f_sharp_min_triads }
+
+% Some Chord Tools can use alternate starting
+% octaves to facilitate ease of study
+alt_treb_chordTool = \new Staff \relative c'
+{
+  <<
+    \f_sharp_min_triads
+    \f_sharp_min_triadNames
+  >>
+}
+
 chordTool = \new StaffGroup
 {
   <<
-  \new Staff
-  {
-    \relative c'
-    << 
-      \f_sharp_min_triads 
-      \f_sharp_min_triadNames 
-    >>
-  }
-  \new Staff \relative c,
-  {
-    \clef bass
-    <<
-      \f_sharp_min_triads
-    >>
-  }
+    \new Staff
+    {
+      \relative c
+      << 
+	\f_sharp_min_triads 
+	%\f_sharp_min_triadNames 
+      >>
+    }
+
+    \alt_treb_chordTool
+
+    \new Staff \relative c,
+    {
+      \clef bass
+      <<
+	\f_sharp_min_triads
+      >>
+    }
   >>
 }
 
