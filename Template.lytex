@@ -20,12 +20,16 @@
   \newline
   \lilypondfile{Major_Keys/A_Maj.ly}
   \newline
+
+  \newpage
   \lilypondfile{Major_Keys/E_Maj.ly}
   \newline
   \lilypondfile{Major_Keys/B_Maj.ly}
   \newline
   \lilypondfile{Major_Keys/F_sharp_Maj.ly}
   \newline
+
+  \newpage
   \lilypondfile{Major_Keys/C_sharp_Maj.ly}
   \newpage
 
@@ -38,12 +42,16 @@
   \newline
   \lilypondfile{Major_Keys/E_flat_Maj.ly}
   \newline
+
+  \newpage
   \lilypondfile{Major_Keys/A_flat_Maj.ly}
   \newline
   \lilypondfile{Major_Keys/D_flat_Maj.ly}
   \newline
   \lilypondfile{Major_Keys/G_flat_Maj.ly}
   \newline
+
+  \newpage
   \lilypondfile{Major_Keys/C_flat_Maj.ly}
   \newline
 
